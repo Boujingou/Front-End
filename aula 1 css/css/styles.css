@@ -1,0 +1,48 @@
+/* selecionamos os elementos h1 aqui */
+h1{
+    color: brown;
+}
+/* selecionamos os elementos p aqui*/
+p{
+    color: rgb(227, 192, 228);
+}
+strong{
+    color: salmon;
+}
+body {background-color: cadetblue;}
+
+#titulo{
+    color: rgb(224, 8, 109);
+    text-align: center;
+}
+p#descricao{
+    color: rgb(240, 63, 9);
+}
+.promocao{
+    background-color: rgb(236, 196, 62);
+    text-align: right;
+}
+h1.promocao{
+    color: cornflowerblue
+}
+/* combinar multiplas classes */
+.nova{
+    color: aquamarine;
+}
+p.final-pagina#rodape {
+    background-color: blueviolet;
+    text-align: center;
+}
+.curso, .novo-curso{
+    background-color: yellow;
+}
+.novo-curso{
+    color: royalblue;
+}
+.curso{
+    color: purple;
+}
+.curso, .novo-curso{
+    padding: 12px;
+    border: 2px dashed crimson;
+}

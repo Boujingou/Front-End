@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cursos</title>
+    <style>
+        article p {
+            padding: 12px;
+            background-color: cadetblue;
+        }
+
+        #principal p.promocao {
+            padding: 12px;
+            background-color: teal;
+        }
+        body #principal article section p.coordenadores{
+            text-align: center;
+            background-color: paleturquoise;
+        }
+        article > p {
+            border: 2px solid navy;
+        }
+        main > article section > p.coordenadores {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="principal">
+        <h1 id="titulo">Portal Cursos</h1>
+
+        <p id="descricao">Temos cursos nas mais diversa áreas.</p>
+
+        <p class="nova promocao">
+            Venha conversar conosco e conhecer nossas ofertas de
+            <strong>bolsas de estudos</strong>.
+        </p>
+
+        <p>Cursos</p>
+        <article>
+            <p class="novo-curso">Ciências da Computação</p>
+            <p class="curso">Engenharia</p>
+            <p class="curso">Administração</p>
+            <section>
+                <p class="coordenadores">Nossos coordenadores estão à disposição</p>
+            </section>
+        </article>
+
+        <p id="contato" class="final-pagina">Entre em contato: 1234-5678</p>
+        <p id="rodape" class="final-pagina">&copy; Todos os direitos reservados</p>
+    </main>
+</body>
+
+</html>

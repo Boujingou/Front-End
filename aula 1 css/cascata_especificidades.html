@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cascata e Especificidades</title>
+    <style>
+        #titulo {
+            color: green;
+            border: 2px dashed blue;
+        }
+
+        .descricao {
+            color: blue;
+        }
+
+        p {
+            color: red;
+        }
+
+        .principal article {
+            background-color: darkorange;
+        }
+
+        main article {
+            background-color: lightblue;
+        }
+
+        main, article {
+            border: 5px ridge blue;
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <article>
+            <p id="titulo" class="descricao">Este parágrafo está dentro de um article que está dentro de um main</p>
+        </article>
+    </main>
+    <article class="descricao">Estudo do algoritmo de Especificidades</article>
+</body>
+
+</html>
