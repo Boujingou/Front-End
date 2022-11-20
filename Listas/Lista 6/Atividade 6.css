@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    background-color: lightblue;
+    padding: 0px;
+}
+
+header {
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px ;
+    padding: 10px;
+    background-color: orange;
+    color: midnightblue;
+    display: flex;
+}
+
+header > p {
+    margin: 0px 20px;
+    padding: 10px 0px;
+}
+
+#titulo {
+    flex-grow: 1;
+    text-align: center;
+    border-bottom: solid midnightblue 3px;
+    margin: 0px;
+}
+
+#menu {
+    border-bottom: solid midnightblue 3px;
+    border-left: solid midnightblue 3px;
+    border-bottom-left-radius: 35px;
+    flex-grow: 0.1;
+    text-align: center;
+    margin-left: 0px;
+}
+
+#usuario {
+    border-bottom: solid midnightblue 3px;
+    border-right: solid midnightblue 3px;
+    border-bottom-right-radius: 35px;
+    flex-grow: 0.1;
+    text-align: center;
+    margin-right: 0px;
+}
+
+main {
+    display: flex;
+    background-color: white;
+    height:650px;
+    border-radius: 35px;
+    margin: 0.5%;
+}
+
+.borda-laranja-arredondada {
+    border: solid orange 3px;
+    border-radius: 35px;
+    height:fit-content;
+}
+
+.textos {
+    flex-basis: 25%;
+    margin: 1.2%;
+}
+
+.quadrado {
+    align-self: flex-end;
+    flex-grow: 1;
+    margin: 1.2%;
+    height: 75%;
+    display: flex;
+}
+
+.circulo {
+    height:10%;
+    background-color: orange;
+    align-self: center;
+    flex-grow: 0.08; 
+} 

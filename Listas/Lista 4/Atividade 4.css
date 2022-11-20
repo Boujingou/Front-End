@@ -1,0 +1,39 @@
+li {
+    vertical-align: top;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.primeiro {
+    background-color: red;
+}
+
+.segundo {
+    background-color: green;
+}
+
+.terceiro {
+    background-color: blue;
+}
+
+.negrito {
+    display: inline-block;
+    background-color: black;
+    padding: 0px 3px;
+    margin: 2px;
+}
+
+li:hover {
+    border: solid black 2px;
+    margin: 8px;
+}
+
+.negrito:hover {
+    border: solid white 2px;
+    margin: 0px;
+}

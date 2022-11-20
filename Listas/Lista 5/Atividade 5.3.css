@@ -1,0 +1,38 @@
+.quadro {
+    border: solid 4px black;
+    background-color: gray;
+    height: 500px;
+    display: flex;
+    align-items:flex-end;
+}
+
+.coluna {
+    background-color: chocolate;
+    width: 100px;
+    margin: 20px;
+    border: solid 2px black;
+}
+
+#a {
+    height: 50px;
+}
+
+#b {
+    height: 80px;
+}
+
+#c {
+    height: 110px;
+}
+
+#d {
+    height: 140px;
+}
+
+#e {
+    height: 200px;
+}
+
+#f {
+    height: 300px;
+}
